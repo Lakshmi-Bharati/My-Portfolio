@@ -90,7 +90,7 @@ const timeline: TimelineEvent[] = [
           <span class="grad-text">journey so far</span>
         </h2>
         <p class="section-subtitle">
-          1 yr 8 mos of hands-on experience across full-stack Java, Vue.js, and CRM development.
+         ~2 yrs of hands-on experience across full-stack Java, Vue.js, and CRM development.
         </p>
       </div>
 

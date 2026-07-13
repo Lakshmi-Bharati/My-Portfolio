@@ -21,8 +21,7 @@ function scrollTo(hash: string) {
             <span class="logo-name">Lakshmi Bharati</span>
           </div>
           <p class="footer-tagline">
-            Full Stack Developer · Nashik, India<br />
-            Vue.js · Spring Boot · Directus · VTiger CRM
+            Full Stack Developer · Nashik, India
           </p>
           <!-- Direct contact in footer -->
           <div class="footer-contact">
