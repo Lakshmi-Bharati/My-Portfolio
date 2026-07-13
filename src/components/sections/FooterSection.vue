@@ -21,7 +21,7 @@ function scrollTo(hash: string) {
             <span class="logo-name">Lakshmi Bharati</span>
           </div>
           <p class="footer-tagline">
-            Full Stack Developer · Nashik, India
+            Full Stack Developer · Nashik, Maharashtra, India
           </p>
           <!-- Direct contact in footer -->
           <div class="footer-contact">
