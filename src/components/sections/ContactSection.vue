@@ -57,7 +57,7 @@ const contactDetails = [
   {
     icon: '📍',
     label: 'Location',
-    value: 'Nashik, India',
+    value: 'Nashik, Maharashtra, India',
     href: '#',
   },
   {
