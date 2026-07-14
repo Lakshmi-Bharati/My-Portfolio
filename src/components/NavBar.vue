@@ -65,8 +65,8 @@ async function scrollTo(href: string) {
             <a :href="link.href" class="mobile-link" @click.prevent="scrollTo(link.href)">{{ link.label }}</a>
           </li>
         </ul>
-        <a href="/Lakshmi Bharati.pdf" target="_blank" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:1rem">
-          Download Resume
+        <a href="#contact" target="_blank" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:1rem">
+          Get In Touch
         </a>
       </div>
     </Transition>
