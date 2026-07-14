@@ -21,7 +21,7 @@ const timeline: TimelineEvent[] = [
     org: 'Katalyst Consulting Services Pty Ltd',
     location: 'Australia',
     desc: 'Architected a multi-tenant Headless CMS (Directus + PostgreSQL) serving 5 corporate websites from a single instance, reducing DB redundancy by 80%. Built VTiger CRM modules (Complaints App, Audit Report App) and the Kokumi manufacturing platform with BOM Creator, Cypress E2E tests, and state management.',
-    tags: ['Vue.js', 'Directus', 'PostgreSQL', 'Docker', 'VTiger CRM', 'Cypress', 'Pinia'],
+    tags: ['Vue.js', 'Directus', 'PostgreSQL', 'Docker', 'VTiger CRM', 'Cypress'],
     color: '#6366f1',
     side: 'right',
     badge: 'Current'

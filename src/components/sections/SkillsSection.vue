@@ -57,7 +57,7 @@ const categories: Category[] = [
       // { name: 'Linux CLI', level: 70, color: '#fcc624' },
       { name: 'Vite', level: 85, color: '#bd34fe' },
       { name: 'Cypress E2E Testing', level: 72, color: '#04c38e' },
-      // { name: 'Pinia (State Management)', level: 80, color: '#ffd859' },
+      { name: 'State Management', level: 80, color: '#ffd859' },
     ],
   },
 ]
@@ -177,7 +177,6 @@ const categories: Category[] = [
 
 .skill-list { display: flex; flex-direction: column; gap: 1rem; }
 
-.skill-item {}
 .skill-meta {
   display: flex;
   justify-content: space-between;

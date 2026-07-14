@@ -19,7 +19,7 @@ export const projects: Project[] = [
     category: 'Vue.js / Frappe',
     description: 'Schema-driven dynamic UI workspace with nested BOM trees, version control workflows, and automated dropdown API resolution.',
     longDesc: 'Architected and built a custom JSON schema-driven dynamic UI rendering engine for Kokumi\'s ERP. Rather than hand-coding every view, the system dynamically parses DocType JSON configurations to generate full-fledged forms with tabs, collapsible sections, column breaks, and custom field validation. Features a nested BOM tree designer, dirty-state session recovery, and automated mapping of searchable dropdown lists (apiList.ts) for linked doctypes. Configured comprehensive Cypress E2E test suites for validating multi-page forms, drag-and-drop actions, and conditional validation scopes (depends_on).',
-    tech: ['Vue.js 3', 'TypeScript', 'Pinia', 'Frappe / ERPNext', 'Python', 'MariaDB', 'Cypress E2E', 'REST API', 'Vite'],
+    tech: ['Vue.js 3', 'TypeScript', 'Frappe / ERPNext', 'Python', 'MariaDB', 'Cypress E2E', 'REST API', 'Vite'],
     color: '#f59e0b',
     gradient: 'linear-gradient(135deg, #f59e0b 0%, #f97316 100%)',
     icon: '🏭',
