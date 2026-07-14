@@ -18,7 +18,7 @@ const categories: Category[] = [
     icon: '🎨',
     skills: [
       { name: 'Vue.js', level: 92, color: '#42d392' },
-      { name: 'React.js', level: 82, color: '#61dafb' },
+      { name: 'React.js', level: 94, color: '#61dafb' },
       { name: 'Next.js', level: 70, color: '#e2e8f0' },
       { name: 'Tailwind CSS / DaisyUI', level: 88, color: '#38bdf8' },
       { name: 'HTML / CSS / Bootstrap / MUI', level: 93, color: '#e34f26' },
@@ -33,7 +33,7 @@ const categories: Category[] = [
       { name: 'Spring Boot / Spring MVC', level: 78, color: '#6db33f' },
       { name: 'Spring Security / Hibernate', level: 72, color: '#5c9a3a' },
       { name: 'REST API / WebSocket', level: 82, color: '#ff6b35' },
-      { name: 'JSP / Servlet', level: 68, color: '#e8790e' },
+      { name: 'JSP / Servlet', level: 70, color: '#e8790e' },
     ],
   },
   {
