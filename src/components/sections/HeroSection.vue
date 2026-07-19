@@ -71,7 +71,7 @@ function scrollTo(selector: string) {
       </p>
 
       <p class="hero-desc fade-in">
-        Full Stack Developer with 1.8 years of experience across Java/Spring Boot and Vue.js/React ecosystems.
+        Full Stack Developer with ~2 years of experience across Java/Spring Boot and Vue.js/React ecosystems.
         I've consolidated 5 corporate websites into a single multi-tenant headless CMS, built real-time procurement
         platforms with WebSockets, and shipped CRM automation modules at scale.
       </p>
