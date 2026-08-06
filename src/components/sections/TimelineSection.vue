@@ -12,11 +12,24 @@ interface TimelineEvent {
   badge?: string
 }
 
+function getCurrentJobPeriod(startDate: Date): string {
+  const now = new Date()
+  const totalMonths = (now.getFullYear() - startDate.getFullYear()) * 12 + (now.getMonth() - startDate.getMonth())
+  const yrs = Math.floor(totalMonths / 12)
+  const mos = totalMonths % 12
+
+  const parts: string[] = []
+  if (yrs > 0) parts.push(`${yrs}yr${yrs > 1 ? 's' : ''}`)
+  if (mos > 0 || yrs === 0) parts.push(`${mos}mo${mos !== 1 ? 's' : ''}`)
+
+  return `Jul 2025 – Present · ${parts.join(' ')}`
+}
+
 // Sourced directly from resume Experience & Education sections
 const timeline: TimelineEvent[] = [
   {
     year: 'Jul 2025',
-    period: 'Jul 2025 – Present · 1yr 1mo',
+    period: getCurrentJobPeriod(new Date(2025, 6, 1)),
     title: 'Full Stack Developer',
     org: 'Katalyst Consulting Services Pty Ltd',
     location: 'Australia',
