@@ -48,12 +48,12 @@ const contactDetails = [
     value: 'lakshmibharatijuly96@gmail.com',
     href: 'mailto:lakshmibharatijuly96@gmail.com',
   },
-  {
-    icon: '📱',
-    label: 'Phone',
-    value: '+91 90965 96080',
-    href: 'tel:+919096596080',
-  },
+  // {
+  //   icon: '📱',
+  //   label: 'Phone',
+  //   value: '+91 90965 96080',
+  //   href: 'tel:+919096596080',
+  // },
   {
     icon: '📍',
     label: 'Location',
