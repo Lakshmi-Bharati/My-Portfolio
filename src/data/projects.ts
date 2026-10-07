@@ -49,6 +49,7 @@ export const projects: Project[] = [
       { label: 'katalystcs.com.au', href: 'https://www.katalystcs.com.au/' },
       { label: 'katalystcs.co.in', href: 'https://www.katalystcs.co.in/' },
       { label: 'alchmy.xyz', href: 'https://alchmy.xyz/' },
+      { label: 'kokumi.xyz', href: 'https://kokumi.xyz/' },
     ],
     highlights: [
       'Multi-tenant architecture serving 5 distinct domains from 1 consolidated Directus instance',
@@ -180,4 +181,28 @@ export const projects: Project[] = [
       'Modular React.js components with stateful logic & form validations',
     ]
   },
+  {
+    id: 'cloud-drive-docs',
+    title: 'Cloud Drive & Collaborative Document Studio',
+    category: 'Full Stack / Next.js',
+    description: 'AI-native cloud drive and document workspace featuring rich-text ProseMirror editing, multi-format file ingestion, RBAC access control, and an integrated AI copilot.',
+    longDesc: 'Architected and engineered a high-velocity cloud drive and collaborative document studio inspired by Google Docs and Notion. Built using Next.js 15 (App Router), React 19, TypeScript, and Prisma ORM with SQLite for persistent storage. Features a headless ProseMirror / Tiptap rich-text editor with keyboard formatting shortcuts, inline title editing, and debounced auto-saving. Integrated multi-format file ingestion (.md, .docx, .txt) with markdown AST conversion, in-document attachment uploads, role-based access control (Owner, Editor, Viewer) with instant persona switching, and multi-format exports (Markdown, standalone HTML, Plain Text, and print-ready PDF via custom @media print stylesheets). Also designed an integrated AI Writing Copilot for executive summaries, action item checklists, and tone polishing, verified with an automated Vitest test suite.',
+    tech: ['Next.js 15', 'React 19', 'TypeScript', 'Tiptap / ProseMirror', 'Prisma ORM', 'SQLite', 'Zod', 'Vitest', 'Vanilla CSS'],
+    color: '#2563eb',
+    gradient: 'linear-gradient(135deg, #2563eb 0%, #38bdf8 100%)',
+    icon: '📁',
+    links: [
+      { label: 'Live Demo', href: 'https://ajaia-assessment-iblu.vercel.app/' }
+    ],
+    highlights: [
+      'Headless ProseMirror / Tiptap rich-text engine with inline title editing and debounced auto-saving',
+      'Multi-format file upload and ingestion (.md, .docx, .txt) with markdown AST conversion',
+      'Granular RBAC access control (Owner, Editor, Viewer) with instant multi-persona switcher and API route security',
+      'One-click multi-format export to Markdown, standalone HTML, Plain Text, and print-ready PDF styling',
+      'Integrated AI Writing Copilot drawer for executive summaries, action item checklists, and tone polishing',
+      'Relational SQLite storage modeled via Prisma ORM for documents, attachments, and sharing permissions',
+      'Automated Vitest test suite covering RBAC permissions, document ingestion, and markdown sanitization',
+    ]
+  },
 ]
+
