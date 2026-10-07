@@ -151,7 +151,7 @@ export const projects: Project[] = [
     color: '#ec4899',
     gradient: 'linear-gradient(135deg, #ec4899 0%, #f43f5e 100%)',
     icon: '🏥',
-    links: [],
+    links: [{ label: 'Matoshri Hospital', href: 'https://matoshrihospitalghoti.com/' }],
     highlights: [
       'Custom appointment scheduling form with step-based user inputs and data validations',
       'Interactive healthcare schemes index (MJPJAY, PM-JAY) explaining government benefits and documents checklist',
