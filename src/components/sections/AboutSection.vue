@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const highlights = [
-  { icon: '🚀', label: 'Experience', value: '~2 yrs' },
+  { icon: '🚀', label: 'Experience', value: '~3 yrs' },
   { icon: '⚡', label: 'Sites Consolidated', value: '5→1' },
   { icon: '🛠️', label: 'Tech Domains', value: '10+' },
   { icon: '🎓', label: 'CGPA', value: '7.9/10' },
@@ -29,7 +29,7 @@ function scrollTo(selector: string) {
 
         <p class="about-para fade-in">
           I'm a <strong>Full Stack Developer</strong> at <strong>Katalyst Consulting Services Pty Ltd</strong>
-          (Australia), with ~2 years of hands-on experience across Java/Spring Boot and Vue.js/React ecosystems.
+          (Australia), with ~3 years of hands-on experience across Java/Spring Boot and Vue.js/React ecosystems.
         </p>
         <p class="about-para fade-in">
           I architected a <strong>single-instance Headless CMS platform (Directus + PostgreSQL)</strong> that
@@ -39,7 +39,7 @@ function scrollTo(selector: string) {
         </p>
         <p class="about-para fade-in">
           Education: <strong>B.E. (E&amp;TC)</strong> from Savitribai Phule University (CGPA 7.9/10).
-          Certified <strong>Full Stack Java Developer</strong> — Seven Mentors &amp; Training Pvt Ltd, Pune (Aug 2023–24).
+          Certified <strong>Full Stack Java Developer</strong> — Seven Mentors &amp; Training Pvt Ltd, Pune.
         </p>
         <p class="about-para fade-in">
           Languages I speak: English, Marathi, Hindi.
@@ -89,7 +89,7 @@ function scrollTo(selector: string) {
             </div> -->
             <div class="id-row">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-              Jul 2025 – Present at KCS
+              Jul 2024 – Present at KCS
             </div>
           </div>
         </div>
