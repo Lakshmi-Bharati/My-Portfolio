@@ -71,7 +71,7 @@ function scrollTo(selector: string) {
       </p>
 
       <p class="hero-desc fade-in">
-        Full Stack Developer with ~3 years of experience across Java/Spring Boot and Vue.js/React ecosystems.
+        Full Stack Developer with ~2 years of experience across Java/Spring Boot and Vue.js/React ecosystems.
         I've consolidated 5 corporate websites into a single multi-tenant headless CMS, built real-time procurement
         platforms with WebSockets, and shipped CRM automation modules at scale.
       </p>
@@ -90,7 +90,7 @@ function scrollTo(selector: string) {
       <div class="hero-stack fade-in">
         <span class="stack-label">Tech I work with:</span>
         <div class="stack-pills">
-          <span v-for="tech in ['Vue.js', 'React.js', 'Spring Boot', 'Advanced Java', 'Core Java', 'Directus', 'VTiger CRM', 'ERPNext', 'Frappe Framework', 'MySQL','HTML', 'CSS', 'JavaScript','Rest API','JPA/Hibernate', 'Bootstrap']" :key="tech" class="pill">{{ tech }}</span>
+          <span v-for="tech in ['Vue.js', 'React.js', 'Spring Boot', 'Advanced Java', 'Core Java', 'Directus', 'VTiger CRM', 'ERPNext', 'Frappe Framework', 'MySQL','HTML', 'CSS', 'JavaScript','Rest API','JPA/Hibernate', 'Bootstrap', 'Next Gen']" :key="tech" class="pill">{{ tech }}</span>
         </div>
       </div>
 

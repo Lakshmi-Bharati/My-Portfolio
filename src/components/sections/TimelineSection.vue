@@ -22,14 +22,14 @@ function getCurrentJobPeriod(startDate: Date): string {
   if (yrs > 0) parts.push(`${yrs}yr${yrs > 1 ? 's' : ''}`)
   if (mos > 0 || yrs === 0) parts.push(`${mos}mo${mos !== 1 ? 's' : ''}`)
 
-  return `Jul 2024 – Present · ${parts.join(' ')}`
+  return `Jul 2025 – Present · ${parts.join(' ')}`
 }
 
 // Sourced directly from resume Experience & Education sections
 const timeline: TimelineEvent[] = [
   {
-    year: 'Jul 2024',
-    period: getCurrentJobPeriod(new Date(2024, 6, 1)),
+    year: 'Jul 2025',
+    period: getCurrentJobPeriod(new Date(2025, 6, 1)),
     title: 'Full Stack Developer',
     org: 'Katalyst Consulting Services Pty Ltd',
     location: 'Australia',
@@ -40,8 +40,8 @@ const timeline: TimelineEvent[] = [
     badge: 'Current'
   },
   {
-    year: 'Dec 2023',
-    period: 'Dec 2023 – Jul 2024 · 8 mos',
+    year: 'Dec 2024',
+    period: 'Dec 2024 – Jul 2025 · 8 mos',
     title: 'React JS + Java Intern',
     org: 'Samvav Labs',
     location: 'Kolkata, West Bengal',
@@ -51,8 +51,8 @@ const timeline: TimelineEvent[] = [
     side: 'left',
   },
   {
-    year: 'Aug 2022',
-    period: 'Aug 2022 – Aug 2023',
+    year: 'Aug 2023',
+    period: 'Aug 2023 – Aug 2024',
     title: 'Full Stack Java Developer',
     org: 'Seven Mentor and Training Pvt Ltd',
     location: 'Pune',
@@ -103,7 +103,7 @@ const timeline: TimelineEvent[] = [
           <span class="grad-text">journey so far</span>
         </h2>
         <p class="section-subtitle">
-         ~3 yrs of hands-on experience across full-stack Java, Vue.js, and CRM development.
+         ~2 yrs of hands-on experience across full-stack Java, Vue.js, and CRM development.
         </p>
       </div>
 
